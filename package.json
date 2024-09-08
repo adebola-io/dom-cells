@@ -1,0 +1,54 @@
+{
+  "name": "@adbl/dom-cells",
+  "version": "0.0.0",
+  "description": "DOM-specific utility functions for @adbl/cells",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adebola-io/dom-cells.git"
+  },
+  "keywords": [
+    "dom",
+    "cells"
+  ],
+  "author": "Adebola Akomolafe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adebola-io/dom-cells/issues"
+  },
+  "homepage": "https://github.com/adebola-io/dom-cells#readme",
+  "peerDependencies": {
+    "@adbl/cells": "^0.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./deriveCursorPosition": {
+      "types": "./deriveCursorPosition.d.ts"
+    },
+    "./deriveElementAttributes": {
+      "types": "./deriveElementAttributes.d.ts"
+    },
+    "./deriveElementBounding": {
+      "types": "./deriveElementBounding.d.ts"
+    },
+    "./deriveElementClasslist": {
+      "types": "./deriveElementClasslist.d.ts"
+    },
+    "./deriveElementVisibility": {
+      "types": "./deriveElementVisibility.d.ts"
+    },
+    "./deriveNetworkStatus": {
+      "types": "./deriveNetworkStatus.d.ts"
+    },
+    "./deriveWindowSize": {
+      "types": "./deriveWindowSize.d.ts"
+    }
+  }
+}
