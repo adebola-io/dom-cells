@@ -1,6 +1,6 @@
 {
   "name": "@adbl/dom-cells",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "DOM-specific utility functions for @adbl/cells",
   "main": "index.js",
   "scripts": {
@@ -30,25 +30,32 @@
   },
   "exports": {
     "./deriveCursorPosition": {
-      "types": "./deriveCursorPosition.d.ts"
+      "import": "./deriveCursorPosition.js",
+      "types": "./types/deriveCursorPosition.d.ts"
     },
     "./deriveElementAttributes": {
-      "types": "./deriveElementAttributes.d.ts"
+      "import": "./deriveElementAttributes.js",
+      "types": "./types/deriveElementAttributes.d.ts"
     },
     "./deriveElementBounding": {
-      "types": "./deriveElementBounding.d.ts"
+      "import": "./deriveElementBounding.js",
+      "types": "./types/deriveElementBounding.d.ts"
     },
     "./deriveElementClasslist": {
-      "types": "./deriveElementClasslist.d.ts"
+      "import": "./deriveElementClasslist.js",
+      "types": "./types/deriveElementClasslist.d.ts"
     },
     "./deriveElementVisibility": {
-      "types": "./deriveElementVisibility.d.ts"
+      "import": "./deriveElementVisibility.js",
+      "types": "./types/deriveElementVisibility.d.ts"
     },
     "./deriveNetworkStatus": {
-      "types": "./deriveNetworkStatus.d.ts"
+      "import": "./deriveNetworkStatus.js",
+      "types": "./types/deriveNetworkStatus.d.ts"
     },
     "./deriveWindowSize": {
-      "types": "./deriveWindowSize.d.ts"
+      "import": "./deriveWindowSize.js",
+      "types": "./types/deriveWindowSize.d.ts"
     }
   }
 }

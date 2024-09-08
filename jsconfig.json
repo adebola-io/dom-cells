@@ -20,7 +20,9 @@
     "declaration": true,
 
     "checkJs": true,
-    "strict": true
+    "strict": true,
+
+    "outDir": "types"
   },
   "include": ["library/**/*", "*.js"],
   "exclude": ["types/**/*", "tests/**/*", "node_modules/**/*", "build.js"]

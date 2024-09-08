@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import { execSync } from 'node:child_process';
 
-execSync('rm -f *.d.ts && npx tsc --project jsconfig.json', {
+execSync('rm -rf types && npx tsc --project jsconfig.json', {
   stdio: 'inherit',
 });
 const excluded = ['build.js'];
@@ -20,7 +20,8 @@ const exportFiles = {};
 for (const file of jsFiles) {
   const filename = file.split('.').slice(0, -1).join('.');
   exportFiles[`./${filename}`] = {
-    types: `./${filename}.d.ts`,
+    import: `./${filename}.js`,
+    types: `./types/${filename}.d.ts`,
   };
 }
 
