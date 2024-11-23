@@ -9,6 +9,7 @@
     "noUnusedParameters": true,
     "noImplicitAny": true,
     "allowUnreachableCode": false,
+    "noImplicitOverride": true,
     "allowJs": true,
 
     "isolatedModules": true,
@@ -20,10 +21,8 @@
     "declaration": true,
 
     "checkJs": true,
-    "strict": true,
-
-    "outDir": "types"
+    "strict": true
   },
-  "include": ["library/**/*", "*.js"],
+  "include": ["lib/*.js"],
   "exclude": ["types/**/*", "tests/**/*", "node_modules/**/*", "build.js"]
 }
