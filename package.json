@@ -4,6 +4,7 @@
   "description": "DOM-specific utility functions for @adbl/cells",
   "main": "index.js",
   "scripts": {
+    "build": "node build.js",
     "watch": "npx tsc -p jsconfig.json --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +28,45 @@
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
+    "glob": "^11.0.0",
     "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./useWindowSize": {
+      "types": "./types/useWindowSize.d.ts",
+      "default": "./lib/useWindowSize.js"
+    },
+    "./useStorage": {
+      "types": "./types/useStorage.d.ts",
+      "default": "./lib/useStorage.js"
+    },
+    "./useNetworkStatus": {
+      "types": "./types/useNetworkStatus.d.ts",
+      "default": "./lib/useNetworkStatus.js"
+    },
+    "./useLocalStorage": {
+      "types": "./types/useLocalStorage.d.ts",
+      "default": "./lib/useLocalStorage.js"
+    },
+    "./useElementVisibility": {
+      "types": "./types/useElementVisibility.d.ts",
+      "default": "./lib/useElementVisibility.js"
+    },
+    "./useElementClasslist": {
+      "types": "./types/useElementClasslist.d.ts",
+      "default": "./lib/useElementClasslist.js"
+    },
+    "./useElementBounding": {
+      "types": "./types/useElementBounding.d.ts",
+      "default": "./lib/useElementBounding.js"
+    },
+    "./useElementAttribute": {
+      "types": "./types/useElementAttribute.d.ts",
+      "default": "./lib/useElementAttribute.js"
+    },
+    "./useCursorPosition": {
+      "types": "./types/useCursorPosition.d.ts",
+      "default": "./lib/useCursorPosition.js"
+    }
   }
 }
