@@ -1,6 +1,6 @@
 {
   "name": "@adbl/dom-cells",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "DOM-specific utility functions for @adbl/cells",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/adebola-io/dom-cells#readme",
   "peerDependencies": {
-    "@adbl/cells": "latest"
+    "@adbl/cells": "^0.0.10"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
