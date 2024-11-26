@@ -1,6 +1,6 @@
 {
   "name": "@adbl/dom-cells",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "DOM-specific utility functions for @adbl/cells",
   "main": "index.js",
   "scripts": {
@@ -63,6 +63,10 @@
     "./useElementAttribute": {
       "types": "./types/useElementAttribute.d.ts",
       "default": "./lib/useElementAttribute.js"
+    },
+    "./useDate": {
+      "types": "./types/useDate.d.ts",
+      "default": "./lib/useDate.js"
     },
     "./useCursorPosition": {
       "types": "./types/useCursorPosition.d.ts",
