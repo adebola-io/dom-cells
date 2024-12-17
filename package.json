@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/adebola-io/dom-cells#readme",
   "peerDependencies": {
-    "@adbl/cells": "^0.0.10"
+    "@adbl/cells": "^0.0.11"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
