@@ -1,6 +1,6 @@
 {
   "name": "@adbl/dom-cells",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "DOM-specific utility functions for @adbl/cells",
   "main": "index.js",
   "scripts": {
